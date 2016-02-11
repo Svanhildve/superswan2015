@@ -1,0 +1,64 @@
+.portfolio-listing-item {
+	font-weight: $light;
+	display: block;
+	height: 300px;
+	background-size: cover;
+	background-position: 50% 50%;
+	color: #fff;
+	position: relative;
+
+		&:before {
+	    background-color: rgba(0,0,0,0.3);
+	    content: "";
+	    display: block;
+	    height: 300px;
+	    left: 0;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	}
+
+	h2 {
+		margin-bottom: 20px;
+		font-weight: $bold;
+	}
+
+	.subtitle {
+
+		&:after {
+			background: #fff;
+		}
+
+	}
+
+}
+
+
+
+.portfolio-listing-text {
+	margin-top: 60px;
+	z-index: 100;
+	position: relative;
+}
+
+@media #{$breakpoint-medium} {
+
+	.portfolio-listing-item {
+		height: 400px;
+
+			&:before {
+		    height: 400px;
+		}
+
+		h2 {
+			margin-bottom: 40px;
+		}
+
+	}
+
+	.portfolio-listing-text {
+		margin-top: 80px;
+	}
+
+}
+

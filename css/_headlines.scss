@@ -1,0 +1,120 @@
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 42px;
+	line-height: 50px;
+}
+
+h3 {
+	font-size: 38px;
+}
+
+h4 {
+	font-size: 26px;
+	padding-top: 20px;
+}
+
+h5 {
+	font-size: 21px;
+}
+
+h6 {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.display-h1 {
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: $bold;
+	line-height: 32px;
+	margin-bottom: 25px;
+}
+
+.ampersand {
+	width: 30px;
+	height: 30px;
+
+	@media #{$breakpoint-medium} {
+		width: 38px;
+		height: 38px;
+	}
+}
+
+@media #{$breakpoint-medium} {
+
+	h1 {
+		font-size: 61px;
+	}
+
+	h2 {
+		font-size: 50px;
+		line-height: 65px;
+	}
+
+	h3 {
+		font-size: 42px;
+	}
+
+	h4 {
+		font-size: 36px;
+		padding-top: 30px;
+	}
+
+	h5 {
+		font-size: 24px;
+	}
+
+	h6 {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
+	.display-h1 {
+		font-size: 45px;
+		line-height: 40px;
+	}
+
+	.ampersand {
+		font-size: 60px;
+	}
+
+}
+
+@media #{$breakpoint-large} {
+
+	h1 {
+		font-size: 70px;
+	}
+
+	h2 {
+		font-size: 58px;
+		line-height: 65px;
+		padding-bottom: 20px;
+	}
+
+	h3 {
+		font-size: 44px;
+	}
+
+	h4 {
+		font-size: 38px;
+		padding-top: 35px;
+	}
+
+	h5 {
+		font-size: 26px;
+	}
+
+	h6 {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
+	.display-h1 {
+		font-size: 45px;
+	}
+
+}

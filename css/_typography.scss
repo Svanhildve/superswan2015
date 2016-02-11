@@ -1,0 +1,63 @@
+$primary-typeface: 		"brandon-grotesque";
+$bold: 					900;
+$regular:				500;
+$light:					300;
+$standard-text:			18px;
+$small-text:			14px;
+
+.subtitle {
+	text-transform: uppercase;
+	font-weight: $bold;
+	font-size: 12px;
+	margin-bottom: 0px;
+	letter-spacing: 1.2px;
+//	color: $medium-grey;
+	display: inline-block;
+
+	&:after {
+		margin-top: 5px;
+		margin-bottom: 15px;
+		display: block;
+		width: 20px;
+		height: 1px;
+		background: $primary-colour;
+		content: "",
+	}
+}
+
+.lede {
+	font-size: 17px;
+	margin-bottom: $base-spacing-unit-large;
+	font-weight: $light;
+}
+
+@media #{$breakpoint-medium} {
+
+	.subtitle {
+		font-size: 13px;
+		margin-bottom: 10px;
+
+	}
+
+	.lede {
+		font-size: 24px;
+	}
+
+}
+
+@media #{$breakpoint-large} {
+
+	.lede {
+		font-size: 28px;
+	}
+
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+

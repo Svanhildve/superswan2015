@@ -1,0 +1,42 @@
+.about-hero {
+	background-size: cover;
+	background-position: 50% 50%;
+	display: block;
+	height: 200px;
+	
+	color: #fff;
+
+	img {
+		width: 100%;
+	}
+}
+
+.about-hero-text {
+	margin-top: 50px;
+	color: #fff;
+}
+
+@media #{$breakpoint-medium} {
+
+	.about-hero-text {
+		margin-top: 100px;
+	}
+
+	.about-hero {
+		height: 450px;
+	}
+
+}
+
+@media #{$breakpoint-large} {
+
+	.about-hero-text {
+		margin-top: 120px;
+	}
+
+}
+
+.skills-icon {
+	display: block;
+	margin-bottom: 20px;
+}

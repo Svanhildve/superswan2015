@@ -1,0 +1,17 @@
+.full-width-image {
+	width: 100%;
+}
+
+.bottom-aligned {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.full-width-image-2 {
+	width: 100%;
+	display: inline-block;
+
+	@media #{$breakpoint-palm} {
+		width: 50%;
+	}
+}

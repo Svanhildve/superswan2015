@@ -1,0 +1,21 @@
+.footer {
+	border-top: 1px $light-grey solid;
+	text-align: center;
+	padding: 20px 0px;
+	background: #fff;
+	color: $medium-grey;
+	font-size: 12px;
+
+	a {
+		color: $medium-grey;
+	}
+
+}
+
+@media #{$breakpoint-medium} {
+
+	.footer {
+		font-size: 14px;
+	}
+
+}

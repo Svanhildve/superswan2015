@@ -1,0 +1,109 @@
+// Primary Button
+
+.primary-button {
+	padding: 6px 20px;
+	background: $primary-colour;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	font-size: 13px;
+}
+
+.primary-button:active {
+	background: darken($primary-colour, 5%);
+}
+
+.primary-button:hover {
+	background: lighten($primary-colour, 5%);
+	color: #fff;
+	text-decoration: none;
+}
+
+// Secondary Button
+
+.secondary-button {
+	padding: 6px 20px;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	border: 2px #fff solid;
+	font-size: 13px;
+	position: relative;
+
+	&:before {
+		content:'';
+		width: 100%;
+		height: 0px;
+		background: #fff;
+		transition: all .3s ease;
+		display: block;
+	    left: 0;
+	    position: absolute;
+	    top: 0;
+	}
+
+
+		
+}
+
+.secondary-button:active {
+	
+}
+
+.secondary-button:hover {
+	color: $primary-colour;
+	text-decoration: none;	
+
+	&:before {
+		height: 100%;
+		z-index: -100;
+	}
+}
+
+@media #{$breakpoint-medium} {
+
+	.primary-button {
+		padding: 8px 30px;
+		font-size: 16px;
+	}
+
+	.secondary-button {
+		padding: 8px 30px;
+		font-size: 16px;
+	}
+
+}
+
+// CTA link
+
+a.cta-link {
+	text-transform: uppercase;
+	color: $primary-colour;
+	font-size: $small-text;
+	font-weight: $bold;
+	text-decoration: none;
+	display: inline-block;
+
+	&:after {
+		content: '';
+		display: block;
+		height: 2px;
+		width: 0;
+		background: $primary-colour;
+		transition: width .5s ease;
+
+	}
+
+	&:hover {
+
+		&:after {
+			width: 100%;
+			background: $primary-colour;
+			transition: width .5s ease;
+		
+
+		}
+
+	}
+
+}

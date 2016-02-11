@@ -1,0 +1,30 @@
+body {
+	font-family: $primary-typeface;
+	font-size: 14px;
+	font-weight: $regular;
+	color: $text-colour;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+@media #{$breakpoint-medium} {
+
+	body {
+		font-family: $primary-typeface;
+		font-size: 18px;
+	}
+
+}
+
+.relative {
+	position: relative;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.center {
+	margin: auto;
+	text-align: center;
+}

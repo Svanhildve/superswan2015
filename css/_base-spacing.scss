@@ -1,0 +1,93 @@
+$base-spacing-unit-small:			15px;
+$base-spacing-unit-large:			25px;
+
+
+// Single
+
+
+
+.base-spacing-top {
+	margin-top: $base-spacing-unit-small;
+
+	@media #{$breakpoint-medium} {
+		margin-top: $base-spacing-unit-large;
+	}
+}
+
+.base-spacing-bottom {
+	margin-bottom: $base-spacing-unit-small;
+
+	@media #{$breakpoint-medium} {
+		margin-bottom: $base-spacing-unit-large;
+	}
+}
+
+.base-spacing-overall {
+	margin-top: $base-spacing-unit-small;
+	margin-bottom: $base-spacing-unit-small;
+
+	@media #{$breakpoint-medium} {
+		margin-top: $base-spacing-unit-large;
+		margin-bottom: $base-spacing-unit-large;
+	}
+}
+
+// Double
+
+.base-spacing-top-x2 {
+	margin-top: $base-spacing-unit-small * 2;
+
+	@media #{$breakpoint-medium} {
+		margin-top: $base-spacing-unit-large * 2;
+	}
+}
+
+.base-spacing-bottom-x2 {
+	margin-bottom: $base-spacing-unit-small * 2;
+
+	@media #{$breakpoint-medium} {
+		margin-bottom: $base-spacing-unit-large * 2;
+	}
+}
+
+.base-spacing-overall-x2 {
+	margin-top: $base-spacing-unit-small * 2;
+	margin-bottom: $base-spacing-unit-small * 2;
+
+	@media #{$breakpoint-medium} {
+		margin-top: $base-spacing-unit-large * 2;
+		margin-bottom: $base-spacing-unit-large * 2;
+	}
+}
+
+.no-space {
+	line-height: 0;
+}
+
+// Triple 
+
+.base-spacing-top-x3 {
+	margin-top: $base-spacing-unit-small * 3;
+
+	@media #{$breakpoint-medium} {
+		margin-top: $base-spacing-unit-large * 3;
+	}
+}
+
+.base-spacing-bottom-x3 {
+	margin-bottom: $base-spacing-unit-small * 3;
+
+	@media #{$breakpoint-medium} {
+		margin-bottom: $base-spacing-unit-large * 3;
+	}
+}
+
+.base-spacing-overall-x3 {
+	margin-top: $base-spacing-unit-small * 3;
+	margin-bottom: $base-spacing-unit-small * 3;
+
+	@media #{$breakpoint-medium} {
+		margin-top: $base-spacing-unit-large * 3;
+		margin-bottom: $base-spacing-unit-large * 3;
+	}
+}

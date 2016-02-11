@@ -1,0 +1,13 @@
+a {
+	color: $primary-colour;
+	text-decoration: none;
+	display: inline;
+
+	&:hover {
+		color: darken($primary-colour, 10%);
+		text-decoration: underline;
+	}
+}
+
+
+
